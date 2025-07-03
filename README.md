@@ -34,7 +34,19 @@ Both scripts support structures with **5- or 6-membered rings** (e.g., cyclopent
 
 ## Installation
 
-1. Clone the repository:
+Clone the repository:
    ```bash
    git clone https://github.com/Ahmad-Fermion/OrganometallicStructureAnalyzer.git
    cd OrganometallicStructureAnalyzer
+
+**Example (2 rings):**
+
+python ring_analyzer.py ferrocene.xyz --ring1 1 2 3 4 5 --ring2 6 7 8 9 10 --metal1 11
+
+**Example (3 rings):**
+
+python ring_analyzer.py inverse_sandwich.xyz --ring1 2 4 5 7 9 --ring2 3 61 6 8 64 118 --ring3 62 63 65 66 67 --metal1 1 --metal2 60
+
+**ring_analyzer_interactive.py (Interactive)**
+
+python ring_analyzer_interactive.py
